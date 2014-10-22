@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="swatch_01">#FFFCDD</color>
+    <color name="swatch_05">#E0B254</color>
+    <color name="swatch_10">#372809</color>
+
+    <color name="background_color">#fff4d4</color>
+    <color name="yellow">#ffbf25</color>
+    <color name="facebook_blue">#3b5999</color>
+    <color name="twitter_blue">#00acee</color>
+    <color name="gray1">#999999</color>
+</resources>

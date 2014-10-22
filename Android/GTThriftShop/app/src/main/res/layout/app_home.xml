@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background_color"
+    style="@style/Match">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical"
+        style="@style/MatchWrap">
+
+        <RelativeLayout
+            android:padding="10dp"
+            style="@style/MatchWrap"
+            android:gravity="center"
+            android:background="@color/yellow">
+
+            <edu.gatech.cic.gtthriftshop.widget.CustomTextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:drawablePadding="10dp"
+                android:text="Scan your buzzcard"
+                android:drawableLeft="@drawable/ic_action_tick"
+                style="@style/Text.18" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:gravity="center"
+            style="@style/MatchWrap">
+
+            <edu.gatech.cic.gtthriftshop.widget.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                style="@style/Text.12"
+                android:gravity="center"
+                android:textColor="@color/gray1"
+                android:text="Or Log In With"
+                android:drawableLeft="@drawable/ic_dash"
+                android:drawableRight="@drawable/ic_dash"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="1"
+            style="@style/MatchWrap">
+
+            <RelativeLayout
+                android:background="@color/facebook_blue"
+                android:layout_weight="0.5"
+                android:padding="10dp"
+                style="@style/OWrap">
+
+                <edu.gatech.cic.gtthriftshop.widget.CustomTextView
+                    android:drawableLeft="@drawable/ic_facebook"
+                    android:drawablePadding="10dp"
+                    android:text="Facebook"
+                    android:gravity="center"
+                    style="@style/Text.18"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@color/twitter_blue"
+                android:layout_weight="0.5"
+                android:padding="10dp"
+                style="@style/OWrap">
+
+                <edu.gatech.cic.gtthriftshop.widget.CustomTextView
+                    android:drawableLeft="@drawable/ic_twitter"
+                    android:drawablePadding="10dp"
+                    android:text="Twitter"
+                    android:gravity="center"
+                    style="@style/Text.18"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

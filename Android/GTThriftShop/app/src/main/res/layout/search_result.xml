@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cic="http://schemas.android.com/apk/res-auto"
+    style="@style/Match"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <edu.gatech.cic.gtthriftshop.widget.CustomTextView
+        android:id="@+id/word"
+        style="@style/Text.18"
+        android:textColor="@color/swatch_10"
+        cic:textStyle="bold" />
+
+    <edu.gatech.cic.gtthriftshop.widget.CustomTextView
+        android:id="@+id/definition"
+        style="@style/Text.14"
+        android:singleLine="true"
+        android:textColor="@color/swatch_10" />
+
+</LinearLayout>

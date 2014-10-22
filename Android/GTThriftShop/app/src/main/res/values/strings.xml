@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GT Thrift Shop</string>
+    <string name="image">Image</string>
+    <string name="action_search">Search</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+        <item quantity="one">%1$d result for \"%2$s\": </item>
+        <item quantity="other">%1$d results for \"%2$s\": </item>
+    </plurals>
+
+    <!-- Search failure message. -->
+    <string name="no_results">No results found for \"%s\"</string>
+    <string name="search_hint">Search for Words</string>
+</resources>
